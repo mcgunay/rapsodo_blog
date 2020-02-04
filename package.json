@@ -1,5 +1,5 @@
 {
-  "name": “rapsodo-blog-api”,
+  "name": "rapsodo-blog-api",
   "version": "1.0.0",
   "description": "blog api",
   "main": "index.js",
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/mcgunay/rapsodo_blog/issues"
   },
-  "homepage": "https://github.com/mcgunay/rapsodo_blog#readme"
+  "homepage": "https://github.com/mcgunay/rapsodo_blog#readme",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "^4.8.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.0",
+    "node-uuid": "^1.4.8"
+  }
 }
